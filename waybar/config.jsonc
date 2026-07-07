@@ -1,0 +1,55 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "spacing": 6,
+
+  "modules-left": [
+    "custom/os",
+    "sway/workspaces"
+  ],
+
+  "modules-center": [
+    "clock"
+  ],
+
+  "modules-right": [
+    "tray",
+    "backlight",
+    "pulseaudio",
+    "battery"
+  ],
+
+  "custom/os": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "fuzzel"
+  },
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip-format": "{:%A %d %B %Y}"
+  },
+
+  "network": {
+    "format-wifi": "",
+    "format-ethernet": "󰈀",
+    "format-disconnected": "󰖪"
+  },
+
+  "pulseaudio": {
+    "format": " {volume}%",
+    "format-muted": ""
+  },
+
+  "battery": {
+    "format": " {capacity}%",
+    "format-icons": ["","","","",""]
+  },
+  "backlight": {
+    "format": "☀ {percent}%",
+    "interval": 5
+  },
+
+  "tray":  {}
+}

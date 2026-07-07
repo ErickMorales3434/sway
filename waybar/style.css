@@ -1,0 +1,64 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", sans-serif;
+  font-size: 12.5px;
+  border: none;
+}
+
+/* BAR BASE */
+window#waybar {
+  background: rgba(18, 18, 22, 0.75);
+  color: #e6e6e6;
+  border-radius: 10px;
+  margin: 6px 10px;
+}
+
+/* LEFT LOGO */
+#custom-arch {
+  padding: 0 10px;
+  color: #89b4fa;
+  font-size: 15px;
+}
+
+/* WORKSPACES */
+#workspaces button {
+  padding: 0 6px;
+  margin: 2px;
+  color: #777;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+  color: #ffffff;
+  background: rgba(137, 180, 250, 0.25);
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* CENTER CLOCK */
+#clock {
+  padding: 0 12px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* RIGHT MODULES */
+#pulseaudio,
+#network,
+#battery {
+  padding: 0 10px;
+  margin: 2px 4px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* COLORS STATES */
+#battery.warning {
+  color: #f9e2af;
+}
+
+#battery.critical {
+  color: #f38ba8;
+}
