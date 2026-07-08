@@ -13,7 +13,7 @@ window#waybar {
 }
 
 /* LEFT LOGO */
-#custom-arch {
+#custom-os {
   padding: 0 10px;
   color: #89b4fa;
   font-size: 15px;
@@ -28,9 +28,10 @@ window#waybar {
   transition: all 0.2s ease;
 }
 
-#workspaces button.active {
-  color: #ffffff;
-  background: rgba(137, 180, 250, 0.25);
+#workspaces button.active,
+#workspaces button.focused {
+    color: #89b4fa;
+    font-weight: bold;
 }
 
 #workspaces button:hover {
@@ -47,7 +48,10 @@ window#waybar {
 /* RIGHT MODULES */
 #pulseaudio,
 #network,
-#battery {
+#battery,
+#backlight,
+#language
+ {
   padding: 0 10px;
   margin: 2px 4px;
   border-radius: 8px;

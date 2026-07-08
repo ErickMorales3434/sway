@@ -1,0 +1,10 @@
+width=35%
+height=40%
+location=center
+show=drun
+prompt=Buscar
+allow_images=true
+image_size=24
+insensitive=true
+term=foot
+gtk_dark=true
