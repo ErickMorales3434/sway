@@ -18,7 +18,7 @@ set $term tilix
 # Your preferred application launcher
 set $menu wmenu-run
 input type:keyboard {
-    xkb_layout "latam,us"
+    xkb_layout "us,latam"
 }
 include /etc/sway/config-vars.d/*
 

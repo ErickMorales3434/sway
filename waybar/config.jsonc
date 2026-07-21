@@ -51,7 +51,7 @@
   },
   "tray": {},
   "sway/language": {
-    "format": " {}",
+    "format": "a {}",
     "min-length": 5
   }
 }
